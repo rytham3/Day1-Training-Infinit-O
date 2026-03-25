@@ -1,0 +1,24 @@
+# Data Lakehouse:
+    - It is for storage and processing
+    - Where we store data
+    - clean it using PySpark
+    - And Transform it.
+
+
+# Data WareHouse:
+    - Where you run sql queries
+    - Get reports 
+    - Do analysis
+
+
+
+# Implementation of these topics today on DataBricks:
+    - I created this table "suicidesindia_2001_2012"
+    - As per what i explored, this is my Data LakeHouse, i uploaded the data in csv format. And DataBricks stores it as Delta Table. Then we can use PySpark on it.
+    - When i ran i SQL queries on it, that time i'm using DataWarehouse
+
+In one line summary: 
+    - Data LakeHouse: Storing and cleaning data
+    - Data Warehouse: Extracting insights from the data
+
+
