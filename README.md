@@ -1,1 +1,1 @@
-# Day1-Training-Infit-O
+# Day1-Training-Infinit-O
