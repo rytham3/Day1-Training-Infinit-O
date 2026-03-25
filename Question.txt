@@ -1,0 +1,26 @@
+Question: Why in the lakehouse we prefer using pyspark and in warehouse TSql?
+
+Answer:
+
+
+LAKEHOUSE:
+    Intro:
+      - For processing big raw data
+      - In lakehouse data is raw, messy, huge and can be of any format (csv, JSON, logs)
+      - It needs heavy processing
+    Why PySpark:
+      - Can handle big data
+      - Distributed processing (runs on clusters, parallel execution)
+      - Can perform complex transformations (easy to clean, transform and build pipelines)
+      - Runs with any data (Structured + Unstructured)
+
+WAREHOUSE:
+    Intro:
+      - For analyzing clean data
+      - Data is cleaned, structured and needs fast querying
+    
+   Why SQL/T-SQL:
+      - Fast querying on cleaned data
+      - Easy and readable (Business people understand SQL, easy for dashboards)
+      - Structured data only (Relationships, Schemas, Tables)
+      - T SQL adds logic (useful for business rules)
