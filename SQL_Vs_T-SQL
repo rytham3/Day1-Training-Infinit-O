@@ -11,3 +11,13 @@
   - SQL + Programming features (loops, conditions, variables)
   - Used in Microsoft SQL server
   - We can use vairables, error hannding, if else
+
+
+for example VARIABLES:
+
+DECLARE @threshold INT = 10000;
+
+SELECT State, SUM(Total) AS total
+FROM suicidesindia_2001_2012
+GROUP BY State
+HAVING SUM(Total) > @threshold;
