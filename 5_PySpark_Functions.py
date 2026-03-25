@@ -4,7 +4,7 @@
 - .filter()
     - Used to filter or modify a column
     - df = df.filter(df.age > 25)
-- .groupBy
+- .groupBy()
     - Used to aggregate the data
     - df = df.groupby(’coumn_name1’).sum(’column_name2)
 - .join()
